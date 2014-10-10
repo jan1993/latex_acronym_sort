@@ -53,7 +53,7 @@ function makeLOA(acros_sorted){
 
 	for(var i = 0; i < acros_sorted.length; i++)
 	{
-		string += "\acro{"+acros_sorted[i].short +"}{"+acros_sorted[i].long+"} \n";
+		string += "\\acro{"+acros_sorted[i].short +"}{"+acros_sorted[i].long+"} \n";
 	}
 	return string;
 }
